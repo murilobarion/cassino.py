@@ -41,7 +41,12 @@ while True:
             continue
         
         time.sleep(1)
-        valor_aposta = int(input('\nDigite aqui o valor da sua aposta: '))
+        try:
+            valor_aposta = int(input('\nDigite aqui o valor da sua aposta: '))
+        except:
+            print("[bold red]Digite 1 ou 2 mané! Voltando..[/bold red]")
+            time.sleep(3)
+            continue
         
         if valor_aposta > saldo:
             print(f"Oloco, voce so tem ${saldo}!")
