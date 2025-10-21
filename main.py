@@ -23,7 +23,12 @@ while True:
     print(f"Seu saldo atual: [bold green]${saldo}[/bold green]")
     
     print(Panel("[bold][1][/bold] Jogar Caça-Níquel\n[bold][2][/bold] Sair", title="O que deseja fazer?", border_style="blue"))
-    escolha = int(input('Sua escolha: '))
+    try:
+        escolha = int(input('Sua escolha: '))
+    except:
+        print("[bold red]Digite 1 ou 2 mané! Voltando..[/bold red]")
+        time.sleep(3)
+        continue
     
     if escolha == 1:
         time.sleep(0.5)
