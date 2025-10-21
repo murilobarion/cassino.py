@@ -1,4 +1,4 @@
-# Cassino Barion - Simulação de Roleta em Python
+# BarionBet - Simulação de Roleta em Python
 
 Este projeto consiste em uma simulação de um jogo de roleta de cassino, desenvolvido inteiramente em Python e projetado para ser executado em um ambiente de terminal (CLI).
 
@@ -8,7 +8,7 @@ O objetivo é replicar as mecânicas centrais da roleta europeia (com um único 
 
 * **Saldo Virtual:** O jogador inicia com um saldo fixo de fundos virtuais para realizar suas apostas.
 * **Sistema de Apostas:** Implementação de um menu de apostas claro e interativo.
-* **Geração Aleatória:** Utilização da biblioteca `random` do Python para simular o giro da roleta, garantindo resultados imprevisíveis (números de 0 a 36).
+* **Geração Aleatória:** Utilização da biblioteca `random` do Python para simular o giro da roleta, garantindo resultados imprevisíveis (números de 0 a 49).
 * **Validação de Saldo:** O sistema verifica se o jogador possui fundos suficientes antes de aceitar uma aposta.
 * **Cálculo de Pagamentos:** O saldo do jogador é atualizado automaticamente com base no resultado e no tipo de aposta realizada.
 
